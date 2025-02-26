@@ -99,4 +99,4 @@ ENV CONAN_ARGS -log -nosteam
 COPY ./startup.sh /root/startup.sh
 ENTRYPOINT ["/root/startup.sh"]
 
-EXPOSE 27015/udp 7777/udp 7778/udp
+EXPOSE 27015/udp 25575/tcp 7777/udp 7778/udp
